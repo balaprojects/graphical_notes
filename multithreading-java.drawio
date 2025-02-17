@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="50" width="840" height="530" as="geometry">
-            <mxRectangle x="60" y="40" width="50" height="40" as="alternateBounds" />
+            <mxRectangle x="20" y="50" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-1" source="QufMM0Epw_FlTeoEJ7gM-1" target="RW8oEeU4xmQAgKfR6BRh-14">
@@ -50,8 +50,8 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-3" value="Monitor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
           <mxGeometry x="100" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-4" value="It is a mutex + conditional variable (one or more)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
-          <mxGeometry x="90" y="105" width="140" height="30" as="geometry" />
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-4" value="&lt;ol&gt;&lt;li&gt;It is a mutex + conditional variable (one or more)&lt;/li&gt;&lt;li&gt;An entity with entry set and wait set&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
+          <mxGeometry x="20" y="80" width="280" height="55" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-7" value="It solves the problem in multi-threaded applications." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
           <mxGeometry x="70" y="330" width="180" height="30" as="geometry" />
