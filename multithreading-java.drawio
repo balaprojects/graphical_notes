@@ -74,7 +74,7 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-26" value="think why?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
           <mxGeometry x="300" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-28" value="In Java, every object is a conditional variable and has associated lock which is hidden from the developers" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-28" value="&lt;ol&gt;&lt;li&gt;In Java, every object is a conditional variable and has associated lock which is hidden from the developers&lt;/li&gt;&lt;li&gt;IllegalMonitorStateException - when is it thrown?&lt;/li&gt;&lt;li&gt;Multiple ways to acquire the object&#39;s lock.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-1">
           <mxGeometry x="30" y="420" width="750" height="30" as="geometry" />
         </mxCell>
       </root>
