@@ -78,10 +78,10 @@
           <mxGeometry x="30" y="420" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-29" value="Amdahl Law" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="930" y="50" width="80" height="80" as="geometry" />
+          <mxGeometry x="850" y="50" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-30" value="Moore&#39;s Law" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="940" y="145" width="80" height="80" as="geometry" />
+          <mxGeometry x="860" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="560" width="910" height="645" as="geometry">
