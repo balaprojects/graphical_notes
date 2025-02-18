@@ -113,6 +113,9 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-34" value="Multithreading revolves around the ability to execute actions atomically that is without interference from other threads." style="text;align=left;verticalAlign=middle;rounded=0;spacing=2;whiteSpace=wrap;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="50" y="35" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-38" target="RW8oEeU4xmQAgKfR6BRh-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-38" value="Thread Safety" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="380" y="185" width="120" height="60" as="geometry" />
         </mxCell>
@@ -124,6 +127,9 @@
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-45" value="Why?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="270" y="225" width="64" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-46" value="A class and its public APIs are labelled thread safe if multiple threads can consume the APIs without race condition or state corruption.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="325" y="35" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
