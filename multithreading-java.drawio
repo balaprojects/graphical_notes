@@ -94,9 +94,17 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-33" target="RW8oEeU4xmQAgKfR6BRh-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-40" value="Doesn&#39;t guarantee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RW8oEeU4xmQAgKfR6BRh-39">
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-40" value="Does not mean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RW8oEeU4xmQAgKfR6BRh-39">
           <mxGeometry x="-0.3134" y="1" relative="1" as="geometry">
             <mxPoint x="18" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-33" target="RW8oEeU4xmQAgKfR6BRh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-43" value="Java Spec" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RW8oEeU4xmQAgKfR6BRh-42">
+          <mxGeometry x="-0.1778" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-33" value="Atomic Assignment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
@@ -107,6 +115,9 @@
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-38" value="Thread Safety" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="380" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-41" value="&lt;ol&gt;&lt;li&gt;Assignment and read of primitive data types except double and long are atomic.&lt;/li&gt;&lt;li&gt;Read and Writes of volatile double and long are atomic&lt;/li&gt;&lt;/ol&gt;" style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="40" y="355" width="240" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
