@@ -148,7 +148,7 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-51" value="Its a keyword used to acquire the mutex of the associated object.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Synchronized method is associated with this object. Synchronized block can be associated with different object as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="615" y="35" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-53" value="With synchronized keyword, java forces to acquire and release the lock in the same method which means the same thread should acquire and release the lock whereas in semphore, lock can be acquired and release in different methods by different threads." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-53" value="With synchronized keyword, java forces to acquire and release the lock in the same method which means the same thread should acquire and release the lock whereas in semphore, lock can be acquired and release in different methods by different threads." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="390" y="315" width="390" height="85" as="geometry" />
         </mxCell>
       </root>
