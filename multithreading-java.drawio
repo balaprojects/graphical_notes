@@ -83,6 +83,20 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-30" value="Moore&#39;s Law" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="940" y="145" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="585" width="740" height="345" as="geometry">
+            <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-33" target="RW8oEeU4xmQAgKfR6BRh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-33" value="Atomic Assignment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="100" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-34" value="Multithreading revolves around the ability to execute actions atomically that is without interference from other threads." style="text;align=left;verticalAlign=middle;rounded=0;spacing=2;whiteSpace=wrap;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="50" y="65" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
