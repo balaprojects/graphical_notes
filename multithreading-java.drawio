@@ -84,7 +84,7 @@
           <mxGeometry x="940" y="145" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="585" width="910" height="475" as="geometry">
+          <mxGeometry x="60" y="560" width="910" height="645" as="geometry">
             <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -150,6 +150,24 @@
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-53" value="With synchronized keyword, java forces to acquire and release the lock in the same method which means the same thread should acquire and release the lock whereas in semphore, lock can be acquired and release in different methods or by different threads." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="390" y="315" width="390" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-54" value="Wait and Notify" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="80" y="500" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-55" value="Java Object" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="70" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-56" value="Interrupted Threads" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="300" y="500" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-57" value="Sleeping and Waiting threads" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="250" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-58" value="Thread.interrupted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="244" y="570" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-59" value="Thread.currentThread().isInterrupted()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="380" y="559" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
