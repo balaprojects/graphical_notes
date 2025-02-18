@@ -84,7 +84,7 @@
           <mxGeometry x="940" y="145" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="585" width="740" height="475" as="geometry">
+          <mxGeometry x="60" y="585" width="910" height="475" as="geometry">
             <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -116,6 +116,14 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-38" target="RW8oEeU4xmQAgKfR6BRh-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-38" target="RW8oEeU4xmQAgKfR6BRh-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-50" value="can be done using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RW8oEeU4xmQAgKfR6BRh-49">
+          <mxGeometry x="-0.3529" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-38" value="Thread Safety" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="380" y="185" width="120" height="60" as="geometry" />
         </mxCell>
@@ -130,6 +138,15 @@
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-46" value="A class and its public APIs are labelled thread safe if multiple threads can consume the APIs without causing race condition or state corruption.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="325" y="35" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-48" target="RW8oEeU4xmQAgKfR6BRh-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-48" value="Synchronized" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="670" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-51" value="Its a keyword used to acquire the mutex of the associated object.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Synchronized method is associated with this object. Synchronized block can be associated with different object as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="615" y="35" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
