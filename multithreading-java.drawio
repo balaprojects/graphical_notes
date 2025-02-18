@@ -163,11 +163,14 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-57" value="Sleeping and Waiting threads" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="250" y="480" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-58" value="Thread.interrupted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-58" value="Thread.interrupted()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="244" y="570" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-59" value="Thread.currentThread().isInterrupted()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="380" y="559" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-60" value="Calling interrupt on thread which is not waiting or sleeping" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="385" y="470" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
