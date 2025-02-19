@@ -37,6 +37,30 @@
         <mxCell id="QSI3yPNMMPln5SOwIYta-3" value="Popular LLMs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="640" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-4" value="BERT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-5" value="Llama" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="171.07" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-6" value="Mistral AI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-7" value="GPT-4o" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-8" value="Claude" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-9" value="Deepseek" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-10" value="Claude" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QSI3yPNMMPln5SOwIYta-11" value="Gemini" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="783" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
