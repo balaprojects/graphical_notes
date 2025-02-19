@@ -166,8 +166,8 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-57" value="Sleeping and Waiting threads" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="16" y="640" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RW8oEeU4xmQAgKfR6BRh-58" value="Thread.interrupted()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
-          <mxGeometry x="10" y="730" width="110" height="50" as="geometry" />
+        <mxCell id="RW8oEeU4xmQAgKfR6BRh-58" value="Thread.interrupted() - will return current value and clear the interrupt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
+          <mxGeometry x="10" y="730" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-59" value="Thread.currentThread().isInterrupted()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="146" y="719" width="220" height="50" as="geometry" />
@@ -178,8 +178,14 @@
         <mxCell id="IHJi8n1hogq9XDhNtk1p-2" value="Does not mean" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="RW8oEeU4xmQAgKfR6BRh-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="IHJi8n1hogq9XDhNtk1p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IHJi8n1hogq9XDhNtk1p-1" value="Volatile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;This is specific to Java and it provides a consistent view of memory to threads.&lt;/li&gt;&lt;li&gt;It addresses the problem of having multiple levels of memory in hardware by writing / reading the volatile variable value from main memory and as a side effect all the other variables read / written by the reading/writing thread is also from/to main memory.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="260" y="460" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
