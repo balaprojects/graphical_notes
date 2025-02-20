@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Page-1" id="loYNeC-QI8PmxzMnw_u7">
     <mxGraphModel dx="1026" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry x="860" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="550" width="910" height="830" as="geometry">
+          <mxGeometry x="40" y="550" width="1340" height="830" as="geometry">
             <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -145,14 +145,30 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-48" target="RW8oEeU4xmQAgKfR6BRh-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-48" target="RW8oEeU4xmQAgKfR6BRh-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-2" value="Limitation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpxLPOrcCB1HDoKKHPcl-1">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-48" target="PpxLPOrcCB1HDoKKHPcl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-5" value="Overcome the limitation patially using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpxLPOrcCB1HDoKKHPcl-4">
+          <mxGeometry x="-0.6444" relative="1" as="geometry">
+            <mxPoint x="82" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-48" value="Synchronized" style="rounded=1;whiteSpace=wrap;html=1;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
-          <mxGeometry x="670" y="185" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="185" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-51" value="Its a keyword used to acquire the mutex of the associated object.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Synchronized method is associated with this object. Synchronized block can be associated with different object as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="615" y="35" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-53" value="With synchronized keyword, java forces to acquire and release the lock in the same method which means the same thread should acquire and release the lock whereas in semphore, lock can be acquired and release in different methods or by different threads." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
-          <mxGeometry x="620" y="260" width="220" height="140" as="geometry" />
+          <mxGeometry x="570" y="320" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-54" value="Wait and Notify" style="ellipse;whiteSpace=wrap;html=1;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="80" y="500" width="120" height="85" as="geometry" />
@@ -175,17 +191,20 @@
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-60" value="Calling interrupt on thread which is not waiting or sleeping" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="151" y="630" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IHJi8n1hogq9XDhNtk1p-2" value="Does not mean" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="RW8oEeU4xmQAgKfR6BRh-38">
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-2" value="Does not mean" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="RW8oEeU4xmQAgKfR6BRh-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IHJi8n1hogq9XDhNtk1p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="IHJi8n1hogq9XDhNtk1p-3">
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RW8oEeU4xmQAgKfR6BRh-31" source="IHJi8n1hogq9XDhNtk1p-1" target="IHJi8n1hogq9XDhNtk1p-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IHJi8n1hogq9XDhNtk1p-1" value="Volatile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-1" value="Volatile" style="rounded=1;whiteSpace=wrap;html=1;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IHJi8n1hogq9XDhNtk1p-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;This is specific to Java and it provides a consistent view of memory to threads.&lt;/li&gt;&lt;li&gt;It addresses the problem of having multiple levels of memory in hardware by writing / reading the volatile variable value from main memory and as a side effect all the other variables read / written by the reading/writing thread is also from/to main memory.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+        <mxCell id="IHJi8n1hogq9XDhNtk1p-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;This is specific to Java and it provides a consistent view of memory to threads.&lt;/li&gt;&lt;li&gt;It addresses the problem of having multiple levels of memory in hardware by writing / reading the volatile variable value from main memory and as a side effect all the other variables read / written by the reading/writing thread is also from/to main memory.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="260" y="460" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-3" value="Reentrant Lock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="1060" y="182.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
