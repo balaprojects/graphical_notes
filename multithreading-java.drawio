@@ -87,7 +87,7 @@
           <mxGeometry x="860" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="550" width="1340" height="830" as="geometry">
+          <mxGeometry x="60" y="550" width="1600" height="830" as="geometry">
             <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -203,8 +203,53 @@
         <mxCell id="IHJi8n1hogq9XDhNtk1p-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;This is specific to Java and it provides a consistent view of memory to threads.&lt;/li&gt;&lt;li&gt;It addresses the problem of having multiple levels of memory in hardware by writing / reading the volatile variable value from main memory and as a side effect all the other variables read / written by the reading/writing thread is also from/to main memory.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="260" y="460" width="360" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="PpxLPOrcCB1HDoKKHPcl-3" target="PpxLPOrcCB1HDoKKHPcl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-13" value="has problem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpxLPOrcCB1HDoKKHPcl-10">
+          <mxGeometry x="-0.3875" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PpxLPOrcCB1HDoKKHPcl-3" value="Reentrant Lock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
-          <mxGeometry x="1060" y="182.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1050" y="182.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-6" value="&lt;ol&gt;&lt;li&gt;This allows to acquire the lock and unlock in a different method but using the same thread.&lt;/li&gt;&lt;li&gt;Multiple conditional variables can be associated to same lock.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="920" y="10" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="PpxLPOrcCB1HDoKKHPcl-3" target="PpxLPOrcCB1HDoKKHPcl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="PpxLPOrcCB1HDoKKHPcl-9" target="PpxLPOrcCB1HDoKKHPcl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="PpxLPOrcCB1HDoKKHPcl-9" target="PpxLPOrcCB1HDoKKHPcl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-22" value="Solved using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpxLPOrcCB1HDoKKHPcl-21">
+          <mxGeometry x="-0.2364" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-9" value="Missed Signals" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="1050" y="322.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.942;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="RW8oEeU4xmQAgKfR6BRh-48" target="PpxLPOrcCB1HDoKKHPcl-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="300" as="sourcePoint" />
+            <mxPoint x="880" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-12" value="has problem&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpxLPOrcCB1HDoKKHPcl-11">
+          <mxGeometry x="-0.237" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;A thread sends signal before the other thread starts waiting on a condition. In this case, the signal sent got lost." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="1000" y="440" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-20" value="Semaphore" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="1280" y="322.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
