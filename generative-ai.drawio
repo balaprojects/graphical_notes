@@ -100,6 +100,21 @@
         <mxCell id="pS-lc-noOW3CeoLXVnRX-1" value="&lt;b&gt;&lt;u&gt;Data Preprocessing:&lt;/u&gt;&lt;/b&gt;&amp;nbsp;(&lt;a href=&quot;https://medium.com/@aniketbhavar0601/mastering-text-preprocessing-in-generative-ai-and-nlp-projects-e6aab5b2c784&quot;&gt;https://medium.com/@aniketbhavar0601/mastering-text-preprocessing-in-generative-ai-and-nlp-projects-e6aab5b2c784&lt;/a&gt;)&lt;div&gt;&lt;ol&gt;&lt;li&gt;Cleanup: HTML/XML, Spelling Correction, Emoji&lt;/li&gt;&lt;li&gt;Basic Preprocessing:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Tokenization - Sentence and Word&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Optional Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Stop word removal&lt;/li&gt;&lt;li&gt;Stemming and Lemmatisation - Reducing words to their root form, reducing dimensionality and improving model performance. Stemming could produce un-meaningful words whereas lemmatization will produce meaningful words.&lt;/li&gt;&lt;li&gt;Punctuation Removal&lt;/li&gt;&lt;li&gt;Lowercase&lt;/li&gt;&lt;li&gt;Language Detection&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Advance Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Parts of speech tagging&lt;/li&gt;&lt;li&gt;Parsing&lt;/li&gt;&lt;li&gt;Coreference Resolution (Converting pronouns to nouns) - Finding expressions that refer to the same entity.&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
           <mxGeometry x="40" y="190" width="1240" height="310" as="geometry" />
         </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-3" value="Feature Engineering: (Text to Vector representation)&lt;div&gt;&lt;ol&gt;&lt;li&gt;Text Vectorization&lt;/li&gt;&lt;ol&gt;&lt;li&gt;TF-IDF&lt;/li&gt;&lt;li&gt;Bag of word&lt;/li&gt;&lt;li&gt;Word2Vec&lt;/li&gt;&lt;li&gt;One Hot Encoding&lt;/li&gt;&lt;li&gt;Transformers Model&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="40" y="520" width="1240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-4" value="Corpus" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="40" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-5" value="Document" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="120" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-6" value="Word" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="200" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-7" value="Vocabulary" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="280" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
