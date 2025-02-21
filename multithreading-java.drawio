@@ -248,8 +248,14 @@
         <mxCell id="PpxLPOrcCB1HDoKKHPcl-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;A thread sends signal before the other thread starts waiting on a condition. In this case, the signal sent got lost." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="1000" y="440" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="PpxLPOrcCB1HDoKKHPcl-20" target="PpxLPOrcCB1HDoKKHPcl-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PpxLPOrcCB1HDoKKHPcl-20" value="Semaphore" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
           <mxGeometry x="1280" y="322.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PpxLPOrcCB1HDoKKHPcl-24" value="Can be released and acquired for signalling amongst threads." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="1210" y="212.5" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
