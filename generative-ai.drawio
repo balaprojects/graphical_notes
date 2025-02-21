@@ -97,8 +97,11 @@
         <mxCell id="_2cdrDUUwG7YVgqJ5_Df-8" value="API" style="ellipse;whiteSpace=wrap;html=1;" parent="QSI3yPNMMPln5SOwIYta-12" vertex="1">
           <mxGeometry x="500" y="90" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pS-lc-noOW3CeoLXVnRX-1" value="&lt;b&gt;&lt;u&gt;Data Preprocessing:&lt;/u&gt;&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Cleanup: HTML/XML, Spelling Correction, Emoji&lt;/li&gt;&lt;li&gt;Basic Preprocessing:&lt;/li&gt;&lt;li&gt;Advance Preprocessing&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
-          <mxGeometry x="40" y="190" width="920" height="120" as="geometry" />
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-1" value="&lt;b&gt;&lt;u&gt;Data Preprocessing:&lt;/u&gt;&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Cleanup: HTML/XML, Spelling Correction, Emoji&lt;/li&gt;&lt;li&gt;Basic Preprocessing:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Tokenization - Sentence and Word&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Optional Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Stop word removal&lt;/li&gt;&lt;li&gt;Stemming and Lemmatisation&lt;/li&gt;&lt;li&gt;Punctuation Removal&lt;/li&gt;&lt;li&gt;Lowercase&lt;/li&gt;&lt;li&gt;Language Detection&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Advance Preprocessing&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="40" y="190" width="1240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-2" value="Tokenization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="440" y="230" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
