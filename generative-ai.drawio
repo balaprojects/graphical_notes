@@ -62,7 +62,7 @@
           <mxGeometry x="783" y="680" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QSI3yPNMMPln5SOwIYta-12" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="780" width="1300" height="530" as="geometry" />
+          <mxGeometry x="50" y="780" width="1300" height="890" as="geometry" />
         </mxCell>
         <mxCell id="QSI3yPNMMPln5SOwIYta-13" value="E2E Generative AI Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="QSI3yPNMMPln5SOwIYta-12" vertex="1">
           <mxGeometry x="20" width="180" height="30" as="geometry" />
@@ -97,8 +97,8 @@
         <mxCell id="_2cdrDUUwG7YVgqJ5_Df-8" value="API" style="ellipse;whiteSpace=wrap;html=1;" parent="QSI3yPNMMPln5SOwIYta-12" vertex="1">
           <mxGeometry x="500" y="90" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pS-lc-noOW3CeoLXVnRX-1" value="&lt;b&gt;&lt;u&gt;Data Preprocessing:&lt;/u&gt;&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Cleanup: HTML/XML, Spelling Correction, Emoji&lt;/li&gt;&lt;li&gt;Basic Preprocessing:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Tokenization - Sentence and Word&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Optional Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Stop word removal&lt;/li&gt;&lt;li&gt;Stemming and Lemmatisation - Reducing words to their root form, reducing dimensionality and improving model performance.&lt;/li&gt;&lt;li&gt;Punctuation Removal&lt;/li&gt;&lt;li&gt;Lowercase&lt;/li&gt;&lt;li&gt;Language Detection&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Advance Preprocessing&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
-          <mxGeometry x="40" y="190" width="1240" height="190" as="geometry" />
+        <mxCell id="pS-lc-noOW3CeoLXVnRX-1" value="&lt;b&gt;&lt;u&gt;Data Preprocessing:&lt;/u&gt;&lt;/b&gt;&amp;nbsp;(&lt;a href=&quot;https://medium.com/@aniketbhavar0601/mastering-text-preprocessing-in-generative-ai-and-nlp-projects-e6aab5b2c784&quot;&gt;https://medium.com/@aniketbhavar0601/mastering-text-preprocessing-in-generative-ai-and-nlp-projects-e6aab5b2c784&lt;/a&gt;)&lt;div&gt;&lt;ol&gt;&lt;li&gt;Cleanup: HTML/XML, Spelling Correction, Emoji&lt;/li&gt;&lt;li&gt;Basic Preprocessing:&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Tokenization - Sentence and Word&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Optional Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Stop word removal&lt;/li&gt;&lt;li&gt;Stemming and Lemmatisation - Reducing words to their root form, reducing dimensionality and improving model performance. Stemming could produce un-meaningful words whereas lemmatization will produce meaningful words.&lt;/li&gt;&lt;li&gt;Punctuation Removal&lt;/li&gt;&lt;li&gt;Lowercase&lt;/li&gt;&lt;li&gt;Language Detection&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Advance Preprocessing&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Parts of speech tagging&lt;/li&gt;&lt;li&gt;Parsing&lt;/li&gt;&lt;li&gt;Coreference Resolution&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="QSI3yPNMMPln5SOwIYta-12">
+          <mxGeometry x="40" y="190" width="1240" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
