@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Page-1" id="loYNeC-QI8PmxzMnw_u7">
-    <mxGraphModel dx="1853" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
           <mxGeometry x="860" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RW8oEeU4xmQAgKfR6BRh-31" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="550" width="1600" height="830" as="geometry">
+          <mxGeometry x="60" y="550" width="1600" height="890" as="geometry">
             <mxRectangle x="60" y="585" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -260,14 +260,20 @@
         <mxCell id="8UZhLumfHOQWGxL-ngw_-1" value="Spurious Wakeups - Common problem in POSIX based system which means a thread is woken up without being notified, timed out or interrupted. For this reason the wait should always occur in a loop." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="780" y="511" width="610" height="129" as="geometry" />
         </mxCell>
+        <mxCell id="hacUJnM9tbabfjWqKpV_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RW8oEeU4xmQAgKfR6BRh-31" source="hacUJnM9tbabfjWqKpV_-2" target="hacUJnM9tbabfjWqKpV_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hacUJnM9tbabfjWqKpV_-2" value="Lock" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="480" y="639" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hacUJnM9tbabfjWqKpV_-3" value="&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;locks allow shared data to be manipulated safely among multiple threads.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="480" y="609" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hacUJnM9tbabfjWqKpV_-4" value="&lt;div&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;takes a toll on performance especially when the shared data/state is being contented for access by multiple threads.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+          <mxGeometry x="405" y="780" width="230" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="hacUJnM9tbabfjWqKpV_-1" value="&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;The law specifies the cap on the maximum speedup that can be achieved when parallelizing the execution of a program.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="900" y="10" width="310" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="hacUJnM9tbabfjWqKpV_-2" value="Lock" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="70" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hacUJnM9tbabfjWqKpV_-3" value="&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;locks allow shared data to be manipulated safely among multiple threads.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="40" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
