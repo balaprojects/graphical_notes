@@ -257,8 +257,11 @@
         <mxCell id="PpxLPOrcCB1HDoKKHPcl-24" value="Can be released and acquired for signalling amongst threads. Permits acquired should equal permits released." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="1210" y="212.5" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UZhLumfHOQWGxL-ngw_-1" value="Spurious Wakeups - Common problem in POSIX based system which means a thread is woken up without being notified, timed out or interrupted. For this reason the wait should always occur in a loop." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="RW8oEeU4xmQAgKfR6BRh-31">
+        <mxCell id="8UZhLumfHOQWGxL-ngw_-1" value="Spurious Wakeups - Common problem in POSIX based system which means a thread is woken up without being notified, timed out or interrupted. For this reason the wait should always occur in a loop." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="RW8oEeU4xmQAgKfR6BRh-31" vertex="1">
           <mxGeometry x="780" y="511" width="610" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="hacUJnM9tbabfjWqKpV_-1" value="&lt;span style=&quot;color: rgb(55, 65, 81); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui, Georgia, serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;The law specifies the cap on the maximum speedup that can be achieved when parallelizing the execution of a program.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="900" y="10" width="310" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
