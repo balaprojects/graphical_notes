@@ -384,7 +384,7 @@
           <mxGeometry x="900" y="10" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4QDjZ4UT9G_8ichospVU-2" value="" style="swimlane;startSize=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1970" width="1590" height="490" as="geometry" />
+          <mxGeometry x="60" y="1980" width="1590" height="490" as="geometry" />
         </mxCell>
         <mxCell id="4QDjZ4UT9G_8ichospVU-3" value="Memory Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="4QDjZ4UT9G_8ichospVU-2" vertex="1">
           <mxGeometry x="25" width="145" height="40" as="geometry" />
@@ -420,6 +420,9 @@
         </mxCell>
         <mxCell id="aijw6uKSEbrYwyjwLmSQ-12" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui;&quot;&gt;&lt;font style=&quot;font-size: 13px; color: light-dark(rgb(193, 194, 198), rgb(255, 255, 255));&quot;&gt;MM allows for reordering of statements in the program order as long as the outcome of the program isn’t altered.&lt;/font&gt;&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="4QDjZ4UT9G_8ichospVU-2">
           <mxGeometry x="10" y="260" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aijw6uKSEbrYwyjwLmSQ-13" value="&lt;span style=&quot;color: rgb(193, 194, 198); font-family: &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, Arial, Roboto, system-ui; background-color: rgb(27, 27, 29);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Java developer can rely on the JVM to interface with the underlying platform&#39;s memory model through its own memory model called JMM (Java Memory Model) and insert these platform memory specific instructions appropriately. Conversely, the JVM relies on the developer to identify when data is shared through the use of proper synchronization.&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4QDjZ4UT9G_8ichospVU-2">
+          <mxGeometry x="670" y="190" width="560" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
