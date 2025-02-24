@@ -401,7 +401,7 @@
           <mxGeometry x="71" y="110" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aijw6uKSEbrYwyjwLmSQ-2" value="Parallelism, Concurrency, Code Optimisations" style="whiteSpace=wrap;html=1;" vertex="1" parent="4QDjZ4UT9G_8ichospVU-2">
-          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
